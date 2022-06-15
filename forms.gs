@@ -13,7 +13,7 @@ function surveyCodeDirections() {
   let directions = "Here is your survey code: " + randomId +
                             "\n\nCopy and paste this survey code back in MTurk where it says " +
                             "\"Provide the survey code here.\"" +
-                            "\n\nThen click \"Next\" on this survey to submit your responses.";
+                            "\n\nThen click \"Submit\" on this survey to submit your responses.";
   let lastItem = form.addMultipleChoiceItem();
   lastItem.setTitle(directions)
           .setChoices([
